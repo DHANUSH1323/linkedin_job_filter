@@ -1,44 +1,11 @@
 <!-- <!DOCTYPE html>
-<html>
-
-<head>
-    <title>LinkedIn Job Time Filter</title>
-    <style>
-        body {
-            font-family: Arial;
-            padding: 10px;
-        }
-
-        button {
-            margin: 5px;
-            padding: 8px 12px;
-        }
-    </style>
-</head>
-
-<body>
-    <h3>Filter LinkedIn Jobs by Time</h3>
-    <button id="btn-30">Last 30 Mins</button>
-    <button id="btn-60">Last 1 Hour</button>
-    <button id="btn-1440">Last 24 Hours</button>
-
-    <script src="popup.js"></script>
-</body>
-
-</html> -->
-
-
-
-
-
-<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>LinkedIn Job Time Filter</title>
-    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -61,19 +28,32 @@
 
 
 
+
+
+<!-- //Multiple platforms HTML template -->
+<!-- This is a template for filtering jobs by time across multiple platforms -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LinkedIn Job Time Filter</title>
+    <title>Job Time Filter</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="container">
-        <h3>Filter LinkedIn Jobs by Time</h3>
+        <h3>Filter Jobs by Time</h3>
+
+        <label for="platform">Select Platform:</label>
+        <select id="platform">
+            <option value="linkedin">LinkedIn</option>
+            <option value="indeed">Indeed</option>
+            <option value="dice">Dice</option>
+        </select>
 
         <div class="button-group">
             <button id="btn-5">Last 5 Minutes</button>
