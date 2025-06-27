@@ -12,6 +12,8 @@
         "activeTab"
     ],
     "host_permissions": [
-        "https://www.linkedin.com/*"
+        "https://www.linkedin.com/*",
+        "https://www.indeed.com/*",
+        "https://www.dice.com/*"
     ]
 }
